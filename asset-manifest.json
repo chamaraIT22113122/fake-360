@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.00aba237.css",
+    "main.js": "/static/js/main.6ae37816.js",
+    "static/media/SLIIT.jpg": "/static/media/SLIIT.bdd0d8857272336e501d.jpg",
+    "index.html": "/index.html",
+    "main.00aba237.css.map": "/static/css/main.00aba237.css.map",
+    "main.6ae37816.js.map": "/static/js/main.6ae37816.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00aba237.css",
+    "static/js/main.6ae37816.js"
+  ]
+}
