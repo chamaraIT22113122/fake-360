@@ -12,8 +12,8 @@ function LoginPage() {
     e.preventDefault();
     setError('');
 
-    // Check credentials
-    if (registrationNo === 'IT22113122' && password === 'Chmara1=') {
+    // Check credentials - accept any non-empty credentials for demo
+    if (registrationNo.trim() && password.trim()) {
       localStorage.setItem('isAuthenticated', 'true');
       navigate('/home');
     } else {
@@ -26,7 +26,7 @@ function LoginPage() {
       <div className="login-card">
         <div className="logo-section">
           <img 
-            src="/asset/SLIIT-UNI-LOGO.png" 
+            src={process.env.PUBLIC_URL + "/asset/SLIIT-UNI-LOGO.png"}
             alt="SLIIT University - The Knowledge University" 
             className="logo"
           />
