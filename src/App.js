@@ -8,7 +8,7 @@ function App() {
   const isAuthenticated = localStorage.getItem('isAuthenticated') === 'true';
 
   return (
-    <Router>
+    <Router basename="/student360">
       <div className="App">
         <Routes>
           <Route path="/" element={<LoginPage />} />

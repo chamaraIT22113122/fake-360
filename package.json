@@ -2,6 +2,7 @@
   "name": "sliit-student360-demo",
   "version": "1.0.0",
   "description": "Educational demo replica of SLIIT Student 360 portal",
+  "homepage": "https://chamaraIT22113122.github.io/student360",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
@@ -13,7 +14,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -31,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
